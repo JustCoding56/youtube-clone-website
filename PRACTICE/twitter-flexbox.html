@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> twitter flexbox</title>
+    <style>
+        .div1{
+            display: flex;
+            flex-direction: row;
+            align-items: top;
+        }
+        .img{
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+        .user-name{
+            font-family: arial;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .user-name2{
+            font-family: arial;
+            font-size: 15px;
+            color: grey;
+            margin-top: 6px;
+            margin-left: 6px;
+        }
+        .tittle{
+            font-family: arial;
+            font-size: 15px;
+            margin-top: 1px;
+            padding-left: 10px;
+            width: 350px;
+        }
+        .c-1{
+            display: flex;
+            margin-left: 10px;
+            margin-bottom: -10px;
+            margin-top: -12px;
+        }
+        .description{
+            font-family: arial;
+            font-size: 15px;
+            width: 250px;
+            padding-left: 8px;
+        }
+        .d2{
+            display: fex;
+            flex-direction: column;
+            border: solid;
+            border-color: lightgrey;
+            border-width: 1px;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            height: 69px;
+        }
+        .btn{
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            width: 70px;
+            height: 70px;
+            border: none;
+            background-color: lightgrey;
+        }
+        .lower-div{
+            display: flex;
+            margin-left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="div1">
+            <div>
+                <img class="img" src="images/download11.jpg">
+            </div>
+            <div>
+                <div class="c-1">
+                    <p class="user-name">
+                        supersimple.dev
+                    </p>
+                    <p class="user-name2">
+                        @SuperSimpleDev
+                    </p>
+                </div>
+                <div>
+                    <p class="tittle">
+                        What is backend web development? A complete overview. New video is up!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="lower-div">
+                <button class="btn">
+                    blank
+                </button>
+                <div class="d2">
+                    <p class="user-name2">
+                        youtube.com
+                    </p>
+                    <p class="description">
+                        Backend web development - a complete overview (2021)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.span1{
+    text-decoration: underline;
+}
+p{
+    font-family: arial;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.p1{
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Positions Practice</title>
+    <style>
+        .container{
+            position: fixed;
+        }
+        .relative-container{
+            position: relative;
+        }
+        .absolute-container{
+            position: absolute;
+            background-color: white;
+            color: black;
+            top: 3px;
+            right: 1px;
+            font-family: arial;
+            font-weight: bold;
+            font-size: 12px;
+        }
+        button{
+            background-color: white;
+            border-radius: 3px;
+            border-width: 1px;
+            margin-left: 47px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            font-size: 10px;
+        }
+        img{
+            height: 150px;
+            width: 189px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="relative-container">
+                <img src="images/t-shirt.jpg">
+                <div class="absolute-container">
+                    20% OFF
+                </div>
+            </div>
+            <div>
+                <button>
+                    Add To Cart
+                </button>
+            </div>
+    </div>
+</body>
+</html>

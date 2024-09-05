@@ -1,0 +1,29 @@
+p{
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    font-family: arial;
+}
+.span1{
+    color: grey;
+    font-weight:lighter;
+    font-size: 14px;
+}
+.status{
+    color: #6bbe6b;
+    font-size: 14px;
+    font-weight: bold;
+}
+.stuation{
+    font-size: 13px;
+    font-family: arial;
+    color: black;
+}
+.span2{
+    color:#c43131;
+    
+}

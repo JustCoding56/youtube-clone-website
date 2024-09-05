@@ -1,0 +1,41 @@
+.subscribe-button{
+    background-color: red;
+    color: white;
+    border: none; 
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20p;
+    padding-right: 10px;
+    padding-left: 16px;
+    transition: opacity 0.15s;
+}
+.subscribe-button:hoover{
+background-color: black;
+}
+.join-button{
+    background-color: white;
+    border-radius: 2px;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px;
+    color: blue;
+    cursor: pointer;
+    height: 36px;
+    width: 70px;
+}
+.tweet-button{
+background-color: blue;
+color: white;
+border: none;
+width: 70px; 
+height: 36px;
+margin-left: 10px;
+border-radius: 18px;
+font-weight: bold;
+font-size: 15px;
+cursor: pointer;
+margin-left: 8px;
+}
